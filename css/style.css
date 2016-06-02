@@ -6,13 +6,14 @@ body {
 	background-image: url(../img/background-main.png);
 	background-repeat: no-repeat;
 	background-size: cover; 
-	font-family: 'helveticaneuethin';
+	font-family: 'helvetica_neueregular';
 	
 }
+
 @font-face {
-    font-family: 'helveticaneuethin';
-    src: url('../fonts/helveticaneue_thin-webfont.woff2') format('woff2'),
-         url('../fonts/helveticaneue_thin-webfont.woff') format('woff');
+    font-family: 'helvetica_neueregular';
+    src: url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -39,6 +40,7 @@ a {
 a:hover {
 	color: #fff;
 	border-right: #56a2dc;
+	font-weight: bold;
 }
 .clear {
 	clear: both;
@@ -105,7 +107,7 @@ a:hover {
 }
 
 .content {
-margin: 20% auto;
+margin: 15% auto;
 }
 h1 { 
 	font-size: 24px;
@@ -113,10 +115,10 @@ h1 {
 	color: #fff;
 	line-height: 60px;
 	font-weight: normal;
-	border: 1px solid rgba(0,0,0,0);
+	border-bottom: 3px solid #c0c4b6;
 	background-color: rgba(0,0,0,0.7);
-	width: 558px;
-	margin: 3px auto;
+	width: 560px;
+	margin: 0 auto;
 }
 .fb {
 	display: block;
@@ -132,18 +134,18 @@ h1 {
 .field {
 	display: block;
 	width: 276px;
-	height: 25px;
+	height: 35px;
 	background-color: black;
 	border-color: rgba(0,0,0,0.7);
 	border-bottom: 1px solid grey;
 	margin: 0 auto 15px;
 	padding-left: 15px;
 	font-size: 14px;
-	font-family: 'helveticaneuethin';
+	
 }	
-.field:hover {
+.field:active {
 	background: #1b5288;
-	box-shadow: 0px 0px 21px 5px #4a86b0;
+	box-shadow: 0px 0px 2px 2px #4a86b0;
 	border: 1px solid #689bcc;
 }
 
@@ -168,6 +170,8 @@ h1 {
 	border: transparent;
 	margin: 20px;
 	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
 }
 
 p {
